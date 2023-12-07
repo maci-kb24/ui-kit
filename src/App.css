@@ -1,0 +1,62 @@
+:root {
+    /*colors */
+    --primary: #6E41E2;
+    --primaryHover: #5835B0;
+    --primaryActive: #472C8A;
+    --white: #FFFFFF;
+    --white: rgba(255, 255, 255, 0.3);
+    --grayM: #FAFAFA;
+    --grayL: #F1F1F1;
+    --grayS: #D4D4D4;
+    --grayK: #6b6b6b;
+    --black: #111;
+    --redBoy: #F2CACA;
+    --redGirl: #F9E3E3;
+    --red: #DB524E;
+    --superRed: #C7302B;
+    --green: #27AE60;
+    --blue: #428BF9;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    position:fixed;
+    width:100%;
+}
+.header-logos {
+    position:relative;
+    margin:30px;
+}
+.header-logos .rectangle1 {
+    position:absolute;
+    left:0.5%;
+    bottom:27%;
+}
+.main {
+    display: flex;
+    padding-top: 115px;
+}
+.sidebar {
+    position:fixed;
+    width:25%;
+    background-color: #F9F9F9;
+}
+
+.sidebar nav ul {
+    padding-left: 0px;
+}
+.sidebar nav ul li {
+    list-style-type: none;
+    padding:20px 30px 20px 30px;
+    cursor: pointer;
+}
+.sidebar nav ul li a {
+    color: #6b6b6b;
+    text-decoration: none;
+}
+.right-content {
+    flex:1;
+    margin-left: 25%;
+}
